@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>📚 E-learning Platform - Навчальна платформа</title>
+    <script type="module" crossorigin src="/assets/index-BKnsQpf8.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-zVh3wn9h.css">
+  </head>
+  <body>
+    <!-- Кореневий контейнер додатку -->
+    <div id="app">
+      <!-- Header -->
+      <header id="header">
+        <nav class="navbar">
+          <div class="container">
+            <h1 class="logo">📚 E-learning Platform</h1>
+            <ul class="nav-menu">
+              <li><a href="#" data-page="courses" class="nav-link active">Курси</a></li>
+              <li><a href="#" data-page="my-courses" class="nav-link">Мої курси</a></li>
+              <li><a href="#" data-page="progress" class="nav-link">Прогрес</a></li>
+              <li><a href="#" data-page="profile" class="nav-link">Профіль</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Main Content -->
+      <main id="main-content">
+        <div class="container">
+          <!-- Сторінка курсів (за замовчуванням) -->
+          <section id="courses-page" class="page active">
+            <h2>Доступні курси</h2>
+            <div id="courses-list" class="courses-grid">
+              <!-- Курси будуть додані динамічно через JavaScript -->
+            </div>
+          </section>
+
+          <!-- Сторінка "Мої курси" -->
+          <section id="my-courses-page" class="page">
+            <h2>Мої курси</h2>
+            <div id="my-courses-list" class="courses-grid">
+              <!-- Записані курси -->
+            </div>
+          </section>
+
+          <!-- Сторінка прогресу -->
+          <section id="progress-page" class="page">
+            <h2>Мій прогрес</h2>
+            <div id="progress-stats">
+              <!-- Статистика прогресу -->
+            </div>
+          </section>
+
+          <!-- Сторінка деталей курсу -->
+          <section id="course-detail-page" class="page">
+            <button id="back-to-courses" class="btn-back">← Назад до курсів</button>
+            <div id="course-detail-content">
+              <!-- Деталі курсу, уроки, відео -->
+            </div>
+          </section>
+
+          <!-- Сторінка тесту -->
+          <section id="test-page" class="page">
+            <div id="test-content">
+              <!-- Тест з питаннями -->
+            </div>
+          </section>
+
+          <!-- Сторінка профілю (Модуль 5) -->
+          <section id="profile-page" class="page">
+            <h2>👤 Мій профіль</h2>
+            <div id="profile-content">
+              <!-- Форма профілю -->
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="container">
+          <p>&copy; 2025 E-learning Platform. Навчальна практика з розробки WEB-застосунків</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Підключення JavaScript модуля -->
+  </body>
+</html>
